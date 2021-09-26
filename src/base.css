@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    letter-spacing: 0.1px;
+}

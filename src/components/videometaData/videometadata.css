@@ -1,0 +1,29 @@
+.videometadata_top{
+  cursor: pointer;
+}
+.videometadata_channel{
+    border-top: 0.2px solid black;
+    border-bottom: 0.2px solid black;
+}
+.videometadata_channel>button{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: none;
+    letter-spacing: 0.5px;
+}
+.videometadata_channel>button:hover{
+    color: white;
+}
+.videometadata_description{
+    white-space: pre-line;
+    border-bottom:0.2px solid black ;
+    margin-left:2rem;
+}
+.showMoreText{
+    text-decoration: none;
+   display: block;
+   margin: 1rem 0;
+   color: grey;
+   font-weight: 500;
+}

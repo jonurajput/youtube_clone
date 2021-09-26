@@ -1,0 +1,29 @@
+.categoriesBar{
+    padding:0.5rem 0;
+    font-size: 0.8rem;
+    display: flex;
+    overflow-x: scroll;
+    top: 0;
+}
+.categoriesBar::-webkit-scrollbar{
+    width: 0px;
+}
+.categoriesBar > span{
+    margin-right: 1rem;
+    padding: 0.5rem;
+    white-space: nowrap;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 999px;
+}
+.categoriesBar >span:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.active{
+    background-color: red;
+    font-weight: 500;
+    
+}

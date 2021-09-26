@@ -1,0 +1,17 @@
+.comment_form>form>input{
+   background: transparent;
+   border: none;
+   border-bottom: 2px solid black;
+   width: 100%;
+}
+.comment_form>form>input:focus{
+    outline: none;
+}
+.comment_form>form>button{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top:-4px;
+    padding-bottom: -4px;
+    background: transparent;
+    border: 1px solid black;
+}
